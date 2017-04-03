@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82491920D876B3896776BFE9 /* Pods_Rosto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341ABF971CE89A5BEA67F55E /* Pods_Rosto.framework */; };
+		AA5B6CE21CF90B9A00419021 /* login_as_user_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5B6CE11CF90B9A00419021 /* login_as_user_filled.png */; };
+		AAB361691CF9E5A1008D54A4 /* Icon24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361571CF9E5A1008D54A4 /* Icon24@2x.png */; };
+		AAB3616A1CF9E5A1008D54A4 /* Icon27.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361581CF9E5A1008D54A4 /* Icon27.5@2x.png */; };
+		AAB3616B1CF9E5A1008D54A4 /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361591CF9E5A1008D54A4 /* Icon29.png */; };
+		AAB3616C1CF9E5A1008D54A4 /* Icon29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3615A1CF9E5A1008D54A4 /* Icon29@2x.png */; };
+		AAB3616D1CF9E5A1008D54A4 /* Icon29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3615B1CF9E5A1008D54A4 /* Icon29@3x.png */; };
+		AAB3616E1CF9E5A1008D54A4 /* Icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3615C1CF9E5A1008D54A4 /* Icon40.png */; };
+		AAB3616F1CF9E5A1008D54A4 /* Icon40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3615D1CF9E5A1008D54A4 /* Icon40@2x.png */; };
+		AAB361701CF9E5A1008D54A4 /* Icon40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3615E1CF9E5A1008D54A4 /* Icon40@3x.png */; };
+		AAB361711CF9E5A1008D54A4 /* Icon60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3615F1CF9E5A1008D54A4 /* Icon60@2x.png */; };
+		AAB361721CF9E5A1008D54A4 /* Icon60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361601CF9E5A1008D54A4 /* Icon60@3x.png */; };
+		AAB361731CF9E5A1008D54A4 /* Icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361611CF9E5A1008D54A4 /* Icon76.png */; };
+		AAB361741CF9E5A1008D54A4 /* Icon76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361621CF9E5A1008D54A4 /* Icon76@2x.png */; };
+		AAB361751CF9E5A1008D54A4 /* Icon83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361631CF9E5A1008D54A4 /* Icon83.5@2x.png */; };
+		AAB361761CF9E5A1008D54A4 /* Icon86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361641CF9E5A1008D54A4 /* Icon86@2x.png */; };
+		AAB361771CF9E5A1008D54A4 /* Icon98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361651CF9E5A1008D54A4 /* Icon98@2x.png */; };
+		AAB361781CF9E5A1008D54A4 /* RostoIconToo.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361661CF9E5A1008D54A4 /* RostoIconToo.png */; };
+		AAB361791CF9E5A1008D54A4 /* RostoIconToo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361671CF9E5A1008D54A4 /* RostoIconToo@2x.png */; };
+		AAB3617A1CF9E5A1008D54A4 /* RostoIconToo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361681CF9E5A1008D54A4 /* RostoIconToo@3x.png */; };
+		AAB3617F1CF9E686008D54A4 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3617C1CF9E686008D54A4 /* Launch.png */; };
+		AAB361801CF9E686008D54A4 /* Launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3617D1CF9E686008D54A4 /* Launch@2x.png */; };
+		AAB361811CF9E686008D54A4 /* Launch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB3617E1CF9E686008D54A4 /* Launch@3x.png */; };
+		AAB361831CF9EB1F008D54A4 /* RostoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361821CF9EB1F008D54A4 /* RostoIcon.png */; };
+		AAB361851CF9F072008D54A4 /* facial_recognition_scan_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361841CF9F072008D54A4 /* facial_recognition_scan_filled.png */; };
+		AAB361871CF9F09D008D54A4 /* facial_recognition_scan_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB361861CF9F09D008D54A4 /* facial_recognition_scan_default.png */; };
+		AAB53AED1CF77A79007FF72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53AEC1CF77A79007FF72E /* main.m */; };
+		AAB53AF01CF77A79007FF72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53AEF1CF77A79007FF72E /* AppDelegate.m */; };
+		AAB53AF31CF77A79007FF72E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53AF21CF77A79007FF72E /* MasterViewController.m */; };
+		AAB53AF61CF77A79007FF72E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53AF51CF77A79007FF72E /* DetailViewController.m */; };
+		AAB53AF91CF77A79007FF72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB53AF71CF77A79007FF72E /* Main.storyboard */; };
+		AAB53AFB1CF77A79007FF72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB53AFA1CF77A79007FF72E /* Assets.xcassets */; };
+		AAB53AFE1CF77A79007FF72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB53AFC1CF77A79007FF72E /* LaunchScreen.storyboard */; };
+		AAB53B091CF77A7A007FF72E /* RostoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B081CF77A7A007FF72E /* RostoTests.m */; };
+		AAB53B141CF77A7A007FF72E /* RostoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B131CF77A7A007FF72E /* RostoUITests.m */; };
+		AAB53B281CF77C69007FF72E /* MPODetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B271CF77C69007FF72E /* MPODetectionViewController.m */; };
+		AAB53B2E1CF77C8C007FF72E /* MPOActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B2A1CF77C8C007FF72E /* MPOActivityIndicatorViewController.m */; };
+		AAB53B2F1CF77C8C007FF72E /* MPOActivityIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB53B2B1CF77C8C007FF72E /* MPOActivityIndicatorViewController.xib */; };
+		AAB53B301CF77C8C007FF72E /* MPODetectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B2D1CF77C8C007FF72E /* MPODetectionCollectionViewCell.m */; };
+		AAB53B341CF77D1A007FF72E /* MPOVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B331CF77D1A007FF72E /* MPOVerificationViewController.m */; };
+		AAB53B3B1CF77D78007FF72E /* MPOGroupingFaceCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B361CF77D78007FF72E /* MPOGroupingFaceCellObject.m */; };
+		AAB53B3C1CF77D78007FF72E /* MPOGroupingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B381CF77D78007FF72E /* MPOGroupingTableViewCell.m */; };
+		AAB53B3D1CF77D78007FF72E /* MPOGroupingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B3A1CF77D78007FF72E /* MPOGroupingViewController.m */; };
+		AAB53B401CF78C30007FF72E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AAB53B3F1CF78C30007FF72E /* Podfile */; };
+		AAB53B431CF7967F007FF72E /* MPOUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B421CF7967F007FF72E /* MPOUtilities.m */; };
+		AAB53B461CF796B6007FF72E /* MPOImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB53B451CF796B6007FF72E /* MPOImageCollectionViewCell.m */; };
+		AAB53B481CF79711007FF72E /* Common in Resources */ = {isa = PBXBuildFile; fileRef = AAB53B471CF79711007FF72E /* Common */; };
+		AAB53B4C1CF79E89007FF72E /* facial_recognition_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB53B4B1CF79E89007FF72E /* facial_recognition_scan.png */; };
+		AAB53B4E1CF79EE1007FF72E /* camera_addon_identification.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB53B4D1CF79EE1007FF72E /* camera_addon_identification.png */; };
+		AAB53B501CF79EF2007FF72E /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB53B4F1CF79EF2007FF72E /* group.png */; };
+		AACAA3591CFE2CF500BC7F93 /* Main_4_7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACAA3571CFE2CF500BC7F93 /* Main_4_7.storyboard */; };
+		AC3632941E929078006F36EF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AC3632931E929078006F36EF /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB53B051CF77A7A007FF72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB53AE01CF77A79007FF72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB53AE71CF77A79007FF72E;
+			remoteInfo = Rosto;
+		};
+		AAB53B101CF77A7A007FF72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB53AE01CF77A79007FF72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB53AE71CF77A79007FF72E;
+			remoteInfo = Rosto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23FF83ABAD808F31B3317F33 /* Pods-Rosto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rosto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rosto/Pods-Rosto.debug.xcconfig"; sourceTree = "<group>"; };
+		341ABF971CE89A5BEA67F55E /* Pods_Rosto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rosto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542BB781F37FD4BCBC6DB3D0 /* Pods-Rosto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rosto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rosto/Pods-Rosto.release.xcconfig"; sourceTree = "<group>"; };
+		AA5B6CE11CF90B9A00419021 /* login_as_user_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_as_user_filled.png; sourceTree = "<group>"; };
+		AAB361571CF9E5A1008D54A4 /* Icon24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon24@2x.png"; sourceTree = "<group>"; };
+		AAB361581CF9E5A1008D54A4 /* Icon27.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon27.5@2x.png"; sourceTree = "<group>"; };
+		AAB361591CF9E5A1008D54A4 /* Icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon29.png; sourceTree = "<group>"; };
+		AAB3615A1CF9E5A1008D54A4 /* Icon29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon29@2x.png"; sourceTree = "<group>"; };
+		AAB3615B1CF9E5A1008D54A4 /* Icon29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon29@3x.png"; sourceTree = "<group>"; };
+		AAB3615C1CF9E5A1008D54A4 /* Icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon40.png; sourceTree = "<group>"; };
+		AAB3615D1CF9E5A1008D54A4 /* Icon40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon40@2x.png"; sourceTree = "<group>"; };
+		AAB3615E1CF9E5A1008D54A4 /* Icon40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon40@3x.png"; sourceTree = "<group>"; };
+		AAB3615F1CF9E5A1008D54A4 /* Icon60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon60@2x.png"; sourceTree = "<group>"; };
+		AAB361601CF9E5A1008D54A4 /* Icon60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon60@3x.png"; sourceTree = "<group>"; };
+		AAB361611CF9E5A1008D54A4 /* Icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon76.png; sourceTree = "<group>"; };
+		AAB361621CF9E5A1008D54A4 /* Icon76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon76@2x.png"; sourceTree = "<group>"; };
+		AAB361631CF9E5A1008D54A4 /* Icon83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon83.5@2x.png"; sourceTree = "<group>"; };
+		AAB361641CF9E5A1008D54A4 /* Icon86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon86@2x.png"; sourceTree = "<group>"; };
+		AAB361651CF9E5A1008D54A4 /* Icon98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon98@2x.png"; sourceTree = "<group>"; };
+		AAB361661CF9E5A1008D54A4 /* RostoIconToo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RostoIconToo.png; sourceTree = "<group>"; };
+		AAB361671CF9E5A1008D54A4 /* RostoIconToo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RostoIconToo@2x.png"; sourceTree = "<group>"; };
+		AAB361681CF9E5A1008D54A4 /* RostoIconToo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RostoIconToo@3x.png"; sourceTree = "<group>"; };
+		AAB3617C1CF9E686008D54A4 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		AAB3617D1CF9E686008D54A4 /* Launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x.png"; sourceTree = "<group>"; };
+		AAB3617E1CF9E686008D54A4 /* Launch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@3x.png"; sourceTree = "<group>"; };
+		AAB361821CF9EB1F008D54A4 /* RostoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RostoIcon.png; sourceTree = "<group>"; };
+		AAB361841CF9F072008D54A4 /* facial_recognition_scan_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facial_recognition_scan_filled.png; sourceTree = "<group>"; };
+		AAB361861CF9F09D008D54A4 /* facial_recognition_scan_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facial_recognition_scan_default.png; sourceTree = "<group>"; };
+		AAB53AE81CF77A79007FF72E /* Rosto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rosto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB53AEC1CF77A79007FF72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB53AEE1CF77A79007FF72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB53AEF1CF77A79007FF72E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB53AF11CF77A79007FF72E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AAB53AF21CF77A79007FF72E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		AAB53AF41CF77A79007FF72E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AAB53AF51CF77A79007FF72E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AAB53AF81CF77A79007FF72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB53AFA1CF77A79007FF72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB53AFD1CF77A79007FF72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB53AFF1CF77A7A007FF72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB53B041CF77A7A007FF72E /* RostoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RostoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB53B081CF77A7A007FF72E /* RostoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RostoTests.m; sourceTree = "<group>"; };
+		AAB53B0A1CF77A7A007FF72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB53B0F1CF77A7A007FF72E /* RostoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RostoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB53B131CF77A7A007FF72E /* RostoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RostoUITests.m; sourceTree = "<group>"; };
+		AAB53B151CF77A7A007FF72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB53B261CF77C69007FF72E /* MPODetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPODetectionViewController.h; sourceTree = "<group>"; };
+		AAB53B271CF77C69007FF72E /* MPODetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPODetectionViewController.m; sourceTree = "<group>"; };
+		AAB53B291CF77C8C007FF72E /* MPOActivityIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOActivityIndicatorViewController.h; sourceTree = "<group>"; };
+		AAB53B2A1CF77C8C007FF72E /* MPOActivityIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOActivityIndicatorViewController.m; sourceTree = "<group>"; };
+		AAB53B2B1CF77C8C007FF72E /* MPOActivityIndicatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPOActivityIndicatorViewController.xib; sourceTree = "<group>"; };
+		AAB53B2C1CF77C8C007FF72E /* MPODetectionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPODetectionCollectionViewCell.h; sourceTree = "<group>"; };
+		AAB53B2D1CF77C8C007FF72E /* MPODetectionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPODetectionCollectionViewCell.m; sourceTree = "<group>"; };
+		AAB53B311CF77CBF007FF72E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AAB53B321CF77D1A007FF72E /* MPOVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOVerificationViewController.h; sourceTree = "<group>"; };
+		AAB53B331CF77D1A007FF72E /* MPOVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOVerificationViewController.m; sourceTree = "<group>"; };
+		AAB53B351CF77D78007FF72E /* MPOGroupingFaceCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOGroupingFaceCellObject.h; sourceTree = "<group>"; };
+		AAB53B361CF77D78007FF72E /* MPOGroupingFaceCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOGroupingFaceCellObject.m; sourceTree = "<group>"; };
+		AAB53B371CF77D78007FF72E /* MPOGroupingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOGroupingTableViewCell.h; sourceTree = "<group>"; };
+		AAB53B381CF77D78007FF72E /* MPOGroupingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOGroupingTableViewCell.m; sourceTree = "<group>"; };
+		AAB53B391CF77D78007FF72E /* MPOGroupingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOGroupingViewController.h; sourceTree = "<group>"; };
+		AAB53B3A1CF77D78007FF72E /* MPOGroupingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOGroupingViewController.m; sourceTree = "<group>"; };
+		AAB53B3E1CF77EDF007FF72E /* Rosto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rosto-Prefix.pch"; sourceTree = "<group>"; };
+		AAB53B3F1CF78C30007FF72E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAB53B411CF7967F007FF72E /* MPOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOUtilities.h; sourceTree = "<group>"; };
+		AAB53B421CF7967F007FF72E /* MPOUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOUtilities.m; sourceTree = "<group>"; };
+		AAB53B441CF796B6007FF72E /* MPOImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOImageCollectionViewCell.h; sourceTree = "<group>"; };
+		AAB53B451CF796B6007FF72E /* MPOImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOImageCollectionViewCell.m; sourceTree = "<group>"; };
+		AAB53B471CF79711007FF72E /* Common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Common; sourceTree = "<group>"; };
+		AAB53B4B1CF79E89007FF72E /* facial_recognition_scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facial_recognition_scan.png; sourceTree = "<group>"; };
+		AAB53B4D1CF79EE1007FF72E /* camera_addon_identification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_addon_identification.png; sourceTree = "<group>"; };
+		AAB53B4F1CF79EF2007FF72E /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		AACAA3581CFE2CF500BC7F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_4_7.storyboard; sourceTree = "<group>"; };
+		AC3632931E929078006F36EF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB53AE51CF77A79007FF72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82491920D876B3896776BFE9 /* Pods_Rosto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB53B011CF77A7A007FF72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB53B0C1CF77A7A007FF72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FECFFCFCD489B12197D7787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23FF83ABAD808F31B3317F33 /* Pods-Rosto.debug.xcconfig */,
+				542BB781F37FD4BCBC6DB3D0 /* Pods-Rosto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAB3617B1CF9E679008D54A4 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3617C1CF9E686008D54A4 /* Launch.png */,
+				AAB3617D1CF9E686008D54A4 /* Launch@2x.png */,
+				AAB3617E1CF9E686008D54A4 /* Launch@3x.png */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		AAB53ADF1CF77A79007FF72E = {
+			isa = PBXGroup;
+			children = (
+				AC3632931E929078006F36EF /* README.md */,
+				AAB53B3F1CF78C30007FF72E /* Podfile */,
+				AAB53AEA1CF77A79007FF72E /* Rosto */,
+				AAB53B071CF77A7A007FF72E /* RostoTests */,
+				AAB53B121CF77A7A007FF72E /* RostoUITests */,
+				AAB53AE91CF77A79007FF72E /* Products */,
+				4FECFFCFCD489B12197D7787 /* Pods */,
+				D5ED8E8004101AF73A719CF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB53AE91CF77A79007FF72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53AE81CF77A79007FF72E /* Rosto.app */,
+				AAB53B041CF77A7A007FF72E /* RostoTests.xctest */,
+				AAB53B0F1CF77A7A007FF72E /* RostoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB53AEA1CF77A79007FF72E /* Rosto */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B491CF79E65007FF72E /* Images */,
+				AAB53B471CF79711007FF72E /* Common */,
+				AAB53B211CF77C20007FF72E /* API */,
+				AAB53AEE1CF77A79007FF72E /* AppDelegate.h */,
+				AAB53AEF1CF77A79007FF72E /* AppDelegate.m */,
+				AAB53AF11CF77A79007FF72E /* MasterViewController.h */,
+				AAB53AF21CF77A79007FF72E /* MasterViewController.m */,
+				AAB53AF41CF77A79007FF72E /* DetailViewController.h */,
+				AAB53AF51CF77A79007FF72E /* DetailViewController.m */,
+				AAB53AF71CF77A79007FF72E /* Main.storyboard */,
+				AACAA3571CFE2CF500BC7F93 /* Main_4_7.storyboard */,
+				AAB53AFA1CF77A79007FF72E /* Assets.xcassets */,
+				AAB53AFC1CF77A79007FF72E /* LaunchScreen.storyboard */,
+				AAB53AFF1CF77A7A007FF72E /* Info.plist */,
+				AAB53AEB1CF77A79007FF72E /* Supporting Files */,
+				AAB53B311CF77CBF007FF72E /* Constants.h */,
+			);
+			path = Rosto;
+			sourceTree = "<group>";
+		};
+		AAB53AEB1CF77A79007FF72E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53AEC1CF77A79007FF72E /* main.m */,
+				AAB53B3E1CF77EDF007FF72E /* Rosto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB53B071CF77A7A007FF72E /* RostoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B081CF77A7A007FF72E /* RostoTests.m */,
+				AAB53B0A1CF77A7A007FF72E /* Info.plist */,
+			);
+			path = RostoTests;
+			sourceTree = "<group>";
+		};
+		AAB53B121CF77A7A007FF72E /* RostoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B131CF77A7A007FF72E /* RostoUITests.m */,
+				AAB53B151CF77A7A007FF72E /* Info.plist */,
+			);
+			path = RostoUITests;
+			sourceTree = "<group>";
+		};
+		AAB53B211CF77C20007FF72E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B441CF796B6007FF72E /* MPOImageCollectionViewCell.h */,
+				AAB53B451CF796B6007FF72E /* MPOImageCollectionViewCell.m */,
+				AAB53B411CF7967F007FF72E /* MPOUtilities.h */,
+				AAB53B421CF7967F007FF72E /* MPOUtilities.m */,
+				AAB53B251CF77C51007FF72E /* Grouping */,
+				AAB53B241CF77C48007FF72E /* Verification */,
+				AAB53B231CF77C3F007FF72E /* Helpers */,
+				AAB53B221CF77C36007FF72E /* Detection */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		AAB53B221CF77C36007FF72E /* Detection */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B261CF77C69007FF72E /* MPODetectionViewController.h */,
+				AAB53B271CF77C69007FF72E /* MPODetectionViewController.m */,
+			);
+			name = Detection;
+			sourceTree = "<group>";
+		};
+		AAB53B231CF77C3F007FF72E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B291CF77C8C007FF72E /* MPOActivityIndicatorViewController.h */,
+				AAB53B2A1CF77C8C007FF72E /* MPOActivityIndicatorViewController.m */,
+				AAB53B2B1CF77C8C007FF72E /* MPOActivityIndicatorViewController.xib */,
+				AAB53B2C1CF77C8C007FF72E /* MPODetectionCollectionViewCell.h */,
+				AAB53B2D1CF77C8C007FF72E /* MPODetectionCollectionViewCell.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AAB53B241CF77C48007FF72E /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B321CF77D1A007FF72E /* MPOVerificationViewController.h */,
+				AAB53B331CF77D1A007FF72E /* MPOVerificationViewController.m */,
+			);
+			name = Verification;
+			sourceTree = "<group>";
+		};
+		AAB53B251CF77C51007FF72E /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53B351CF77D78007FF72E /* MPOGroupingFaceCellObject.h */,
+				AAB53B361CF77D78007FF72E /* MPOGroupingFaceCellObject.m */,
+				AAB53B371CF77D78007FF72E /* MPOGroupingTableViewCell.h */,
+				AAB53B381CF77D78007FF72E /* MPOGroupingTableViewCell.m */,
+				AAB53B391CF77D78007FF72E /* MPOGroupingViewController.h */,
+				AAB53B3A1CF77D78007FF72E /* MPOGroupingViewController.m */,
+			);
+			name = Grouping;
+			sourceTree = "<group>";
+		};
+		AAB53B491CF79E65007FF72E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AAB361861CF9F09D008D54A4 /* facial_recognition_scan_default.png */,
+				AAB361841CF9F072008D54A4 /* facial_recognition_scan_filled.png */,
+				AAB361821CF9EB1F008D54A4 /* RostoIcon.png */,
+				AAB3617B1CF9E679008D54A4 /* Launch */,
+				AAB53B4A1CF79E6C007FF72E /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AAB53B4A1CF79E6C007FF72E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				AAB361571CF9E5A1008D54A4 /* Icon24@2x.png */,
+				AAB361581CF9E5A1008D54A4 /* Icon27.5@2x.png */,
+				AAB361591CF9E5A1008D54A4 /* Icon29.png */,
+				AAB3615A1CF9E5A1008D54A4 /* Icon29@2x.png */,
+				AAB3615B1CF9E5A1008D54A4 /* Icon29@3x.png */,
+				AAB3615C1CF9E5A1008D54A4 /* Icon40.png */,
+				AAB3615D1CF9E5A1008D54A4 /* Icon40@2x.png */,
+				AAB3615E1CF9E5A1008D54A4 /* Icon40@3x.png */,
+				AAB3615F1CF9E5A1008D54A4 /* Icon60@2x.png */,
+				AAB361601CF9E5A1008D54A4 /* Icon60@3x.png */,
+				AAB361611CF9E5A1008D54A4 /* Icon76.png */,
+				AAB361621CF9E5A1008D54A4 /* Icon76@2x.png */,
+				AAB361631CF9E5A1008D54A4 /* Icon83.5@2x.png */,
+				AAB361641CF9E5A1008D54A4 /* Icon86@2x.png */,
+				AAB361651CF9E5A1008D54A4 /* Icon98@2x.png */,
+				AAB361661CF9E5A1008D54A4 /* RostoIconToo.png */,
+				AAB361671CF9E5A1008D54A4 /* RostoIconToo@2x.png */,
+				AAB361681CF9E5A1008D54A4 /* RostoIconToo@3x.png */,
+				AA5B6CE11CF90B9A00419021 /* login_as_user_filled.png */,
+				AAB53B4F1CF79EF2007FF72E /* group.png */,
+				AAB53B4D1CF79EE1007FF72E /* camera_addon_identification.png */,
+				AAB53B4B1CF79E89007FF72E /* facial_recognition_scan.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		D5ED8E8004101AF73A719CF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341ABF971CE89A5BEA67F55E /* Pods_Rosto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB53AE71CF77A79007FF72E /* Rosto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB53B181CF77A7A007FF72E /* Build configuration list for PBXNativeTarget "Rosto" */;
+			buildPhases = (
+				D9BA0EECE2DFCE358C6A24AF /* [CP] Check Pods Manifest.lock */,
+				AAB53AE41CF77A79007FF72E /* Sources */,
+				AAB53AE51CF77A79007FF72E /* Frameworks */,
+				AAB53AE61CF77A79007FF72E /* Resources */,
+				DAD73D1583F81128098EF40B /* [CP] Embed Pods Frameworks */,
+				F4ECD3C68FEB475982A9D75D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rosto;
+			productName = Rosto;
+			productReference = AAB53AE81CF77A79007FF72E /* Rosto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB53B031CF77A7A007FF72E /* RostoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB53B1B1CF77A7A007FF72E /* Build configuration list for PBXNativeTarget "RostoTests" */;
+			buildPhases = (
+				AAB53B001CF77A7A007FF72E /* Sources */,
+				AAB53B011CF77A7A007FF72E /* Frameworks */,
+				AAB53B021CF77A7A007FF72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB53B061CF77A7A007FF72E /* PBXTargetDependency */,
+			);
+			name = RostoTests;
+			productName = RostoTests;
+			productReference = AAB53B041CF77A7A007FF72E /* RostoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAB53B0E1CF77A7A007FF72E /* RostoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB53B1E1CF77A7A007FF72E /* Build configuration list for PBXNativeTarget "RostoUITests" */;
+			buildPhases = (
+				AAB53B0B1CF77A7A007FF72E /* Sources */,
+				AAB53B0C1CF77A7A007FF72E /* Frameworks */,
+				AAB53B0D1CF77A7A007FF72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB53B111CF77A7A007FF72E /* PBXTargetDependency */,
+			);
+			name = RostoUITests;
+			productName = RostoUITests;
+			productReference = AAB53B0F1CF77A7A007FF72E /* RostoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB53AE01CF77A79007FF72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Agile Mobile Solutions";
+				TargetAttributes = {
+					AAB53AE71CF77A79007FF72E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B7QMBU3EE6;
+					};
+					AAB53B031CF77A7A007FF72E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AAB53AE71CF77A79007FF72E;
+					};
+					AAB53B0E1CF77A7A007FF72E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AAB53AE71CF77A79007FF72E;
+					};
+				};
+			};
+			buildConfigurationList = AAB53AE31CF77A79007FF72E /* Build configuration list for PBXProject "Rosto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB53ADF1CF77A79007FF72E;
+			productRefGroup = AAB53AE91CF77A79007FF72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB53AE71CF77A79007FF72E /* Rosto */,
+				AAB53B031CF77A7A007FF72E /* RostoTests */,
+				AAB53B0E1CF77A7A007FF72E /* RostoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB53AE61CF77A79007FF72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB361831CF9EB1F008D54A4 /* RostoIcon.png in Resources */,
+				AAB53B2F1CF77C8C007FF72E /* MPOActivityIndicatorViewController.xib in Resources */,
+				AAB361761CF9E5A1008D54A4 /* Icon86@2x.png in Resources */,
+				AAB53B4E1CF79EE1007FF72E /* camera_addon_identification.png in Resources */,
+				AAB53B401CF78C30007FF72E /* Podfile in Resources */,
+				AAB3616F1CF9E5A1008D54A4 /* Icon40@2x.png in Resources */,
+				AAB53B501CF79EF2007FF72E /* group.png in Resources */,
+				AACAA3591CFE2CF500BC7F93 /* Main_4_7.storyboard in Resources */,
+				AAB361811CF9E686008D54A4 /* Launch@3x.png in Resources */,
+				AAB3617F1CF9E686008D54A4 /* Launch.png in Resources */,
+				AAB53AFE1CF77A79007FF72E /* LaunchScreen.storyboard in Resources */,
+				AAB3617A1CF9E5A1008D54A4 /* RostoIconToo@3x.png in Resources */,
+				AAB3616A1CF9E5A1008D54A4 /* Icon27.5@2x.png in Resources */,
+				AAB361871CF9F09D008D54A4 /* facial_recognition_scan_default.png in Resources */,
+				AAB361851CF9F072008D54A4 /* facial_recognition_scan_filled.png in Resources */,
+				AAB3616C1CF9E5A1008D54A4 /* Icon29@2x.png in Resources */,
+				AAB361701CF9E5A1008D54A4 /* Icon40@3x.png in Resources */,
+				AAB361801CF9E686008D54A4 /* Launch@2x.png in Resources */,
+				AAB361711CF9E5A1008D54A4 /* Icon60@2x.png in Resources */,
+				AAB361791CF9E5A1008D54A4 /* RostoIconToo@2x.png in Resources */,
+				AAB3616D1CF9E5A1008D54A4 /* Icon29@3x.png in Resources */,
+				AAB361771CF9E5A1008D54A4 /* Icon98@2x.png in Resources */,
+				AAB53AFB1CF77A79007FF72E /* Assets.xcassets in Resources */,
+				AAB361691CF9E5A1008D54A4 /* Icon24@2x.png in Resources */,
+				AAB361751CF9E5A1008D54A4 /* Icon83.5@2x.png in Resources */,
+				AAB3616E1CF9E5A1008D54A4 /* Icon40.png in Resources */,
+				AA5B6CE21CF90B9A00419021 /* login_as_user_filled.png in Resources */,
+				AAB53AF91CF77A79007FF72E /* Main.storyboard in Resources */,
+				AAB3616B1CF9E5A1008D54A4 /* Icon29.png in Resources */,
+				AAB361731CF9E5A1008D54A4 /* Icon76.png in Resources */,
+				AAB53B4C1CF79E89007FF72E /* facial_recognition_scan.png in Resources */,
+				AAB361721CF9E5A1008D54A4 /* Icon60@3x.png in Resources */,
+				AAB361741CF9E5A1008D54A4 /* Icon76@2x.png in Resources */,
+				AAB53B481CF79711007FF72E /* Common in Resources */,
+				AAB361781CF9E5A1008D54A4 /* RostoIconToo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB53B021CF77A7A007FF72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB53B0D1CF77A7A007FF72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9BA0EECE2DFCE358C6A24AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD73D1583F81128098EF40B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rosto/Pods-Rosto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4ECD3C68FEB475982A9D75D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rosto/Pods-Rosto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB53AE41CF77A79007FF72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB53B341CF77D1A007FF72E /* MPOVerificationViewController.m in Sources */,
+				AAB53B3C1CF77D78007FF72E /* MPOGroupingTableViewCell.m in Sources */,
+				AAB53B3D1CF77D78007FF72E /* MPOGroupingViewController.m in Sources */,
+				AAB53AF01CF77A79007FF72E /* AppDelegate.m in Sources */,
+				AAB53AF31CF77A79007FF72E /* MasterViewController.m in Sources */,
+				AAB53B431CF7967F007FF72E /* MPOUtilities.m in Sources */,
+				AAB53B461CF796B6007FF72E /* MPOImageCollectionViewCell.m in Sources */,
+				AAB53B3B1CF77D78007FF72E /* MPOGroupingFaceCellObject.m in Sources */,
+				AAB53B301CF77C8C007FF72E /* MPODetectionCollectionViewCell.m in Sources */,
+				AAB53AED1CF77A79007FF72E /* main.m in Sources */,
+				AC3632941E929078006F36EF /* README.md in Sources */,
+				AAB53AF61CF77A79007FF72E /* DetailViewController.m in Sources */,
+				AAB53B2E1CF77C8C007FF72E /* MPOActivityIndicatorViewController.m in Sources */,
+				AAB53B281CF77C69007FF72E /* MPODetectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB53B001CF77A7A007FF72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB53B091CF77A7A007FF72E /* RostoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB53B0B1CF77A7A007FF72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB53B141CF77A7A007FF72E /* RostoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB53B061CF77A7A007FF72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB53AE71CF77A79007FF72E /* Rosto */;
+			targetProxy = AAB53B051CF77A7A007FF72E /* PBXContainerItemProxy */;
+		};
+		AAB53B111CF77A7A007FF72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB53AE71CF77A79007FF72E /* Rosto */;
+			targetProxy = AAB53B101CF77A7A007FF72E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB53AF71CF77A79007FF72E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB53AF81CF77A79007FF72E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB53AFC1CF77A79007FF72E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB53AFD1CF77A79007FF72E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AACAA3571CFE2CF500BC7F93 /* Main_4_7.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACAA3581CFE2CF500BC7F93 /* Base */,
+			);
+			name = Main_4_7.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB53B161CF77A7A007FF72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB53B171CF77A7A007FF72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB53B191CF77A7A007FF72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FF83ABAD808F31B3317F33 /* Pods-Rosto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Rosto/Rosto-Prefix.pch";
+				INFOPLIST_FILE = Rosto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.Rosto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAB53B1A1CF77A7A007FF72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542BB781F37FD4BCBC6DB3D0 /* Pods-Rosto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Rosto/Rosto-Prefix.pch";
+				INFOPLIST_FILE = Rosto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.Rosto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAB53B1C1CF77A7A007FF72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RostoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.RostoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rosto.app/Rosto";
+			};
+			name = Debug;
+		};
+		AAB53B1D1CF77A7A007FF72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RostoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.RostoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rosto.app/Rosto";
+			};
+			name = Release;
+		};
+		AAB53B1F1CF77A7A007FF72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RostoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.RostoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rosto;
+			};
+			name = Debug;
+		};
+		AAB53B201CF77A7A007FF72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RostoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.RostoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rosto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB53AE31CF77A79007FF72E /* Build configuration list for PBXProject "Rosto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB53B161CF77A7A007FF72E /* Debug */,
+				AAB53B171CF77A7A007FF72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB53B181CF77A7A007FF72E /* Build configuration list for PBXNativeTarget "Rosto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB53B191CF77A7A007FF72E /* Debug */,
+				AAB53B1A1CF77A7A007FF72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB53B1B1CF77A7A007FF72E /* Build configuration list for PBXNativeTarget "RostoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB53B1C1CF77A7A007FF72E /* Debug */,
+				AAB53B1D1CF77A7A007FF72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB53B1E1CF77A7A007FF72E /* Build configuration list for PBXNativeTarget "RostoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB53B1F1CF77A7A007FF72E /* Debug */,
+				AAB53B201CF77A7A007FF72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB53AE01CF77A79007FF72E /* Project object */;
+}

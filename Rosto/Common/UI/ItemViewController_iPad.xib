@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ItemViewController">
+            <connections>
+                <outlet property="addToOrderButton" destination="iWt-dt-jid" id="USQ-0a-mXZ"/>
+                <outlet property="backButton" destination="B41-GQ-DKu" id="tUt-IJ-rdT"/>
+                <outlet property="cheeseTypeSeg" destination="8xe-Fa-ZC9" id="1lT-ry-ZKB"/>
+                <outlet property="dressingTypeSeg" destination="i0l-Tn-lNa" id="6Cs-NI-b7v"/>
+                <outlet property="gluttenFreeLabel" destination="JCi-Uc-ehG" id="B0r-L8-hSk"/>
+                <outlet property="gluttenFreeSwitch" destination="IUe-Dl-0IM" id="z8t-px-Udx"/>
+                <outlet property="iceSeg" destination="0my-69-9S1" id="HDh-Rx-Sb9"/>
+                <outlet property="imageView" destination="REO-nI-ADC" id="hkw-2e-5er"/>
+                <outlet property="itemStepper" destination="Esl-4H-QJX" id="Qrn-Hd-lg0"/>
+                <outlet property="labelCalories" destination="mYP-u4-5Sj" id="QH2-V3-5B5"/>
+                <outlet property="labelDescription" destination="rWO-BS-Q8V" id="0hg-tC-pvI"/>
+                <outlet property="labelPrice" destination="2nq-Of-Ufr" id="aEQ-5O-gfS"/>
+                <outlet property="labelQuantity" destination="pVJ-hO-Zrb" id="3f0-Iq-hac"/>
+                <outlet property="labelTitle" destination="eew-Rf-0qN" id="xtB-Tj-Qqy"/>
+                <outlet property="lblDescription" destination="jnN-Fj-CkD" id="4by-Dl-Ayb"/>
+                <outlet property="lemonSeg" destination="nkN-FG-ZGp" id="TlV-XZ-ocb"/>
+                <outlet property="pastaSeg" destination="A16-4G-P31" id="JSg-ny-SHu"/>
+                <outlet property="sauceTypeSeg" destination="KH3-ou-lx5" id="EJv-wj-53z"/>
+                <outlet property="sidesSeg" destination="TKc-I0-N7Z" id="5Wp-Lf-dxu"/>
+                <outlet property="softDrinks" destination="MEb-2F-WgG" id="gBS-xc-Bh5"/>
+                <outlet property="steakSeg" destination="9vN-4C-xxm" id="BFC-cO-tqN"/>
+                <outlet property="sweetSeg" destination="85J-0W-DKk" id="i7b-P2-c2O"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="SYs-x9-GD5">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPI-Pu-Dok" userLabel="orangeLabel">
+                    <rect key="frame" x="0.0" y="60" width="768" height="410"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ XX.XX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nq-Of-Ufr">
+                    <rect key="frame" x="339" y="920" width="93" height="30"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWt-dt-jid">
+                    <rect key="frame" x="451" y="919" width="120" height="30"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Add to Order">
+                        <color key="titleColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addToOrderAction:" destination="-1" eventType="touchUpInside" id="kr9-a2-fBo"/>
+                    </connections>
+                </button>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Esl-4H-QJX">
+                    <rect key="frame" x="338" y="883" width="94" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="stepperAction:" destination="-1" eventType="valueChanged" id="ZAM-dW-nOC"/>
+                    </connections>
+                </stepper>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVJ-hO-Zrb">
+                    <rect key="frame" x="451" y="883" width="47" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quantity:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnN-Fj-CkD">
+                    <rect key="frame" x="255" y="887" width="75" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlz-RR-cmR">
+                    <rect key="frame" x="275" y="923" width="55" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWO-BS-Q8V" userLabel="Description">
+                    <rect key="frame" x="0.0" y="470" width="768" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZK-qU-0sj" userLabel="OptionsLabel">
+                    <rect key="frame" x="0.0" y="560" width="768" height="310"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="REO-nI-ADC">
+                    <rect key="frame" x="0.0" y="60" width="768" height="400"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYP-u4-5Sj" userLabel="CaloriesLabel">
+                    <rect key="frame" x="658" y="60" width="110" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B41-GQ-DKu">
+                    <rect key="frame" x="10" y="26" width="60" height="25"/>
+                    <state key="normal" title="&lt; Back">
+                        <color key="titleColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelOrder:" destination="-1" eventType="touchUpInside" id="8ZN-TH-N89"/>
+                    </connections>
+                </button>
+                <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IUe-Dl-0IM">
+                    <rect key="frame" x="405" y="569" width="51" height="31"/>
+                    <color key="onTintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                </switch>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gluten Free" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCi-Uc-ehG">
+                    <rect key="frame" x="275" y="574" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="9vN-4C-xxm">
+                    <rect key="frame" x="58" y="607" width="632" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Rare"/>
+                        <segment title="Medium Rare"/>
+                        <segment title="Medium"/>
+                        <segment title="Medium Well"/>
+                        <segment title="Well Done"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TKc-I0-N7Z">
+                    <rect key="frame" x="197" y="679" width="375" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Brocolli"/>
+                        <segment title="Asparagus"/>
+                        <segment title="Peas"/>
+                        <segment title="Medley"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="KH3-ou-lx5">
+                    <rect key="frame" x="270" y="715" width="228" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Alfredo Sauce"/>
+                        <segment title="Marinara Sauce"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="85J-0W-DKk">
+                    <rect key="frame" x="91" y="570" width="192" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Sweetened"/>
+                        <segment title="Unsweetened"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="8xe-Fa-ZC9">
+                    <rect key="frame" x="84" y="643" width="623" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Mozzarella Cheese"/>
+                        <segment title="Provolone Cheese"/>
+                        <segment title="Parmesan Cheese"/>
+                        <segment title="Romano Cheese"/>
+                        <segment title="No Cheese"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="i0l-Tn-lNa">
+                    <rect key="frame" x="34" y="607" width="700" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Ranch Dressing"/>
+                        <segment title="Blue Cheese Dressing"/>
+                        <segment title="Ceasar Dressing"/>
+                        <segment title="House Dressing"/>
+                        <segment title="No Dressing"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0my-69-9S1">
+                    <rect key="frame" x="305" y="571" width="159" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Ice"/>
+                        <segment title="No Ice"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nkN-FG-ZGp">
+                    <rect key="frame" x="486" y="571" width="159" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Lemon"/>
+                        <segment title="No Lemon"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="A16-4G-P31">
+                    <rect key="frame" x="170" y="607" width="428" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="White Pasta"/>
+                        <segment title="Wheat Pasta"/>
+                        <segment title="Grain Pasta"/>
+                        <segment title="Vegetable Pasta"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MEb-2F-WgG">
+                    <rect key="frame" x="45" y="607" width="662" height="29"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.2470588235" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                    <segments>
+                        <segment title="Coke"/>
+                        <segment title="Diet Coke"/>
+                        <segment title="Coke Zero"/>
+                        <segment title="Sprite"/>
+                        <segment title="Dr. Pepper"/>
+                        <segment title="Minute Maid Lemonade"/>
+                    </segments>
+                    <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ITEM TITLE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eew-Rf-0qN">
+                    <rect key="frame" x="84" y="8" width="600" height="59"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="590" y="512"/>
+        </view>
+    </objects>
+</document>

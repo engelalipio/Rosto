@@ -1,0 +1,6 @@
+framework module Pods_Rosto {
+  umbrella header "Pods-Rosto-umbrella.h"
+
+  export *
+  module * { export * }
+}
